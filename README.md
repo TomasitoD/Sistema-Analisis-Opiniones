@@ -23,7 +23,7 @@ database/00_usuario_lectura.sql   usuario MySQL de solo lectura
 
 ## Requisitos
 
-- SDK de .NET 8 (o uno más nuevo con el runtime de .NET 8 instalado)
+- SDK de .NET 8 o uno más nuevo (si solo está .NET 9 o 10, el programa usa ese runtime gracias a `RollForward`)
 - MySQL con la base `AnalisisOpinionesClientes` ya cargada (entrega anterior del ETL)
 
 ## Cómo ejecutarlo

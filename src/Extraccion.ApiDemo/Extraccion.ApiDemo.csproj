@@ -4,6 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <!-- Si no esta el runtime 8, usa uno mas nuevo (ej. .NET 10) -->
+    <RollForward>Major</RollForward>
+    <!-- dotnet run trabaja desde la carpeta donde se ejecuta el comando (la raiz) -->
+    <RunWorkingDirectory>$(MSBuildStartupDirectory)</RunWorkingDirectory>
   </PropertyGroup>
 
   <ItemGroup>
